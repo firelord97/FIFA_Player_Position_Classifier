@@ -94,3 +94,35 @@ Make sure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your_username/fifa-position-classification.git
+
+## How to Run
+
+1. **Data Preprocessing**: Run the `FIFA_preprocessing.ipynb` notebook to preprocess the raw dataset and generate the cleaned dataset.
+
+2. **Model Training**: Choose a model to train:
+   - **Neural Network**: Run the `FIFA_nn.ipynb` notebook.
+   - **Support Vector Machine**: Run the `FIFA_svm.ipynb` notebook.
+   - **k-Nearest Neighbors**: Run the `FIFA_knn.ipynb` notebook.
+
+3. **Evaluation**: After training, the notebooks will automatically generate evaluation metrics and confusion matrices for analysis.
+
+4. **Visualization**: The results, including accuracy graphs and confusion matrices, can be found in the `results/` folder.
+
+---
+
+## Future Work
+
+- **Class Balancing**: Apply techniques like SMOTE or class weighting to address the imbalance.
+- **Position Grouping**: Merge similar positions (e.g., LWB and LB) to simplify classification.
+- **Ensemble Methods**: Implement ensemble learning techniques to boost performance.
+
+---
+
+## References
+
+1. EA Sports FC 24 Player Dataset - [Kaggle](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)
+2. Guide to Soccer Positions and Formations - [GiveMeSport](https://www.givemesport.com/guide-to-football-soccer-positions-formations)
+3. scikit-learn: Machine Learning in Python - [scikit-learn](https://scikit-learn.org/)
+
+---
+
