@@ -27,7 +27,7 @@ This project aims to classify soccer players' positions based on their in-game s
 
 The dataset, obtained from Kaggle, includes player statistics from the EA Sports FC 24 video game. The dataset features 46 attributes for each player and covers 15 distinct positions. The positions are categorized into three groups: Defense, Midfield, and Attack, with specific roles like Goalkeeper (GK), Central Midfielder (CM), and Striker (ST).
 
-![Player Positions](path/to/your/player_positions_image.png)  
+![Player Positions](fifa_positions.png)  
 *Figure 1: General field positions of soccer players.*
 
 - **Positions with Higher Counts**: Central Back (CB), Striker (ST), and Central Midfielder (CM) are well-represented.
@@ -61,7 +61,7 @@ The analysis showed varying success across models:
 - **Support Vector Machines**: Outperformed NNs in some cases, especially for linear separable data, but showed overfitting tendencies.
 - **k-Nearest Neighbors**: Lagged behind other models, with a tendency to misclassify similar positions due to the high dimensionality of the data.
 
-![Player Position Count](path/to/your/player_position_count_image.png)  
+![Player Position Count](player_position_count.png)  
 *Figure 2: Number of players per position in the dataset.*
 
 Refer to the detailed confusion matrices and accuracy graphs for more insights.
@@ -70,7 +70,7 @@ Refer to the detailed confusion matrices and accuracy graphs for more insights.
 
 The confusion matrix below shows the classification performance of the best model, highlighting the accuracy for each position. The matrix illustrates which positions were correctly classified and where misclassifications occurred.
 
-![Confusion Matrix](path/to/your/confusion_matrix_image.png)  
+![Confusion Matrix](graphs/confusion_matrix_best_model_percentage.png)  
 *Figure 3: Confusion matrix showing the classification accuracy for each player position.*
 
 ---
